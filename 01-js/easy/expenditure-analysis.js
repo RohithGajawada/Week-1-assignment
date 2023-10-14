@@ -19,7 +19,7 @@ function calculateTotalSpentByCategory(transactions) {
   for(var i = 0; i < keys.length; i++){
     var obj = {
       cat: keys[i],
-      price: res[keys]
+      price: res[keys[i]]
     }
 
     ans.push(obj);
