@@ -10,5 +10,7 @@ function isPalindrome(str) {
   return str1 === str;
 }
 
+//palindrome
+
 var ans = isPalindrome("Nan")
 console.log(ans);
