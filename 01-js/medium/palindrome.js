@@ -10,7 +10,24 @@ function isPalindrome(str) {
   return str1 === str;
 }
 
+function transform(str){
+  var answer = "";
+
+  for(var i = 0; i < str.length; i++){
+    if(str[i] == " " || str[i] == "," || str[i] == "!"){
+
+    }
+    else{
+      answer += str[i];
+    }
+  }
+
+  return answer;
+}
+
+
 //palindrome
 
-var ans = isPalindrome("Nan")
-console.log(ans);
+var ans1 = transform("Nan nan")
+var ans_final = isPalindrome(ans1);
+console.log(ans_final);
